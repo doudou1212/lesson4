@@ -7,8 +7,7 @@ ul.nav:after {
     visibility: hidden;
 }
 
-/* http://meyerweb.com/eric/tools/css/reset/ */
-/* v1.0 | 20080212 */
+
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td { margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent; }
 body { line-height:1; }
 ol,ul { list-style:none; }
@@ -19,7 +18,7 @@ del { text-decoration:line-through; }
 table { border-collapse:collapse;border-spacing:0; }
 
 body {
-    background: #E4E4E4 url("site/bg.png");
+    background: #E4E4E4 url("../images/bg.png");
     color: #292929;
     color: rgba(0, 0, 0, 0.82);
     font: normal 100% Cambria, Georgia, serif;
@@ -39,7 +38,7 @@ a:hover {
     color: #DF3030;
 }
 #page {
-    background: url("site/rag.png") repeat-x;
+    background: url("../images/rag.png") repeat-x;
     padding: 2em 0;
 }
 .inner {
@@ -59,7 +58,7 @@ img {
     width: 31.875%;	/* 306px / 960px */
 }
 h1 {
-    background: url("site/logo-bg.png") no-repeat 50% 0;
+    background: url("../images/logo-bg.png") no-repeat 50% 0;
 }
 h1 a {
     padding-top: 117px;
@@ -85,7 +84,7 @@ ul.nav {
     width: 64.379%;
 }
 ul.nav a {
-    background: url("site/ornament.png") no-repeat 0 100%;
+    background: url("../images/ornament.png") no-repeat 0 100%;
     font: bold 14px/1.2 "Book Antiqua", "Palatino Linotype", Georgia, serif;
     display: block;
     text-align: center;
@@ -112,14 +111,14 @@ ul.nav i {
     margin-bottom: 0.25em;
 }
 .main h2 {
-    background: url("site/ornament.png") no-repeat 0 50%;
+    background: url("../images/ornament.png") no-repeat 0 50%;
     font-size: 1.4em;
     text-transform: lowercase;
     text-align: center;
     margin: 0.75em 0 1em;
 }
 .main h2 b {
-    background: url("site/bg.png");
+    background: url("../images/bg.png");
     font-weight: normal;
     padding: 0 1em;
 }
@@ -154,7 +153,7 @@ li#f-winter {
     margin-right: 0;
 }
 .footer {
-    background: url("site/ornament.png") 50% 0 repeat-x;
+    background: url("../images/ornament.png") 50% 0 repeat-x;
     font-size: 12px;
     text-align: center;
     padding: 40px 0 20px;
