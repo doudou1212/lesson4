@@ -97,9 +97,9 @@ ul.nav a:hover {
     background-position: 50% 100%;
 }
 li.first a {
-    border-top: 1px solid #FFF9EF;
-    padding-top: 1.25em;
-}
+     border-top: 1px solid #FFF9EF;
+     padding-top: 1.25em;
+ }
 ul.nav i {
     font: normal 10px Baskerville, Garamond, Palatino, "Palatino Linotype", "Hoefler Text", "Times New Roman", serif;
     display: block;

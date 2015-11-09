@@ -1,0 +1,91 @@
+@media screen and (max-width: 1300px) and (min-width:1000px ){/*  ”¶pad*/
+
+    div .mast {
+        float: none;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .intro,.main,.footer{
+        width: 80%;
+        margin: 10px auto;
+        float: none;
+    }
+    ul.nav {
+        border-top: none;
+        margin: auto;
+        width: 60%;
+        height: 40%;
+        float: right;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    .nav li{
+        float: left;
+    }
+    li.first a {
+        border-top: none;
+        padding-top: 1em;
+    }
+    #logo{
+        width: 30%;
+        float: left;
+    }
+    .clear{
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 420px){
+    #logo{
+        display: none;
+    }
+    div .mast {
+        float: none;
+        width: 93.75%;
+        margin: 0 auto;
+    }
+    .intro,.main,.footer{
+        width: 93.75%;
+        margin: 10px auto;
+        float: none;
+    }
+    ul.nav {
+        border-top: none;
+        margin: auto;
+        width: 93.75%;
+        float: none;
+        position: static;
+    }
+    .nav li{
+        float: left;
+    }
+    li.first a {
+        border-top: none;
+        padding-top: 1em;
+    }
+    ul.nav a {
+        font: bold 8px/1.2 "Book Antiqua", "Palatino Linotype", Georgia, serif;
+    }
+    .intro h2 {
+        font: bold 1.1em "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
+    }
+     .content{
+        font-size: 95%;
+        text-align: left;
+    }
+    .figure {
+        width: 80%;
+        margin: 0 auto;
+        float: none;
+        font-size: 10px;
+        letter-spacing: 0.05em;
+        line-height: 1.1;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    i#f-mycroft,li#f-winter{
+        margin-right:auto;
+    }
+
+}
