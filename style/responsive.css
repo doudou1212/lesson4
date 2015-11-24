@@ -1,8 +1,8 @@
-@media screen and (max-width: 1300px) and (min-width:1000px ){/*  ”¶pad*/
+@media screen and (max-width: 1300px) and (min-width:600px ){/*  ”¶pad*/
 
     div .mast {
         float: none;
-        width: 70%;
+        width: 88%;
         margin: 0 auto;
     }
     .intro,.main,.footer{
@@ -36,7 +36,7 @@
     }
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 600px){
     #logo{
         display: none;
     }
